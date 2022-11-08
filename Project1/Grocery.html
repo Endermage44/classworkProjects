@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1 group 5</title>
+    <!-- Christopher, Max, & Blake -->
+    <style>
+        body{
+            margin: 0;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+        }
+        button{
+            margin-top:20px;
+            height: 30px;
+            width: 150px;
+        }
+        #gList{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+        }
+        #itDoesntMatter{
+            display: flex;
+            flex-direction: row;
+        }
+    </style>
+</head>
+<body>
+    <button onclick="addItems()">Add Items to list</button>
+    <div id="itDoesntMatter">
+    <input type="checkbox" id = "purch" onchange="check()">
+    <label for="purch">Show Only purchased items &nbsp</label>
+    <input type="checkbox" id = "notPurch" onchange="check()">
+    <label for="notPurch">Show Only unpurchased items</label>
+    </div>
+    <div id = "gList"></div>
+    <script src="Grocery.js"></script>  
+</body>
+</html>
