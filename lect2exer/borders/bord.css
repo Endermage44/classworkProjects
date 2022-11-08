@@ -1,0 +1,19 @@
+div{
+    line-height: 30px;
+}
+#all{
+    border-style: solid;
+}
+#red{
+    border-bottom-style: solid;
+    border-bottom-color: red
+}
+#round{
+    border-style: solid;
+    border-radius: 10px;
+}
+#blue{
+    border-left-style: solid;
+    border-left-color: blue;
+    background-color: lightblue;
+}

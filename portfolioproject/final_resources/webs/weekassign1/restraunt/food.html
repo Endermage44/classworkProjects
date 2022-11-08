@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="headbar">
+        <div class="tbar">Tacos</div>
+        <div class="tbar">Beers</div>
+        <div class="tbar">Wines</div>
+        <div class="tbar">Desserts</div>
+        <div class="tbar">Reservations</div>
+    </div>
+    <div id="content1">
+        <div id="piccon1">
+            <p class="con12">Terry's Taco Joint</p>
+            <p class="con12">Pretty good Tacos!</p>
+        </div>
+        <div id="worcon1">
+            <div class="con13">
+                <p class="price">$1.99</p>
+                <p  class="item">Tacos</p>
+            </div>
+            <div class="con13">
+                <p class="price">$3.99</p>
+                <p class="item">Kombucha</p>
+            </div>
+        </div>
+    </div>
+    <div id="itinf">
+        <div class="itin">
+            <img src="taco.png" alt="taco">
+            <h2>Tacos</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi,<br>assumenda.</p>
+        </div>
+        <div class="itin">
+            <img src="beer.png" alt="beer">
+            <h2>Beer</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi,<br>assumenda.</p>
+        </div>
+        <div class="itin">
+            <img src="wine.png" alt="wine">
+            <h2>Wine</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi,<br>assumenda.</p>
+        </div>
+        <div class="itin">
+            <img src="music.png" alt="music">
+            <h2>Music</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi,<br>assumenda.</p>
+        </div>
+    </div>
+    <div id="featured">
+        <img src="queso-taco.png" alt="queso">
+        <div id="feat">
+            <h2>Featured Taco</h2>
+            <p>Slim Profile, easy to hold and loaded with cheese<br>This one you have been waiting for</p>
+            <button>Learn More &#8594</button>
+        </div>
+    </div>
+    <div id="gallery">
+        <div id="topgal">
+            <div class="bar"></div>
+            <div id="instant">Instant Grams</div>
+            <div class="bar"></div>
+        </div>
+        <div id="galpics">
+            <div><img src="sky1.jpg" alt="sky1"></div>
+            <div><img src="sky2.jpg" alt="sky2"></div>
+            <div><img src="sky3.jpg" alt="sky3"></div>
+            <div><img src="sky4.jpg" alt="sky4"></div>
+            <div><img src="sky5.jpg" alt="sky5"></div>
+            <div><img src="sky6.jpg" alt="sky6"></div>
+            <div><img src="sky7.jpg" alt="sky7"></div>
+            <div><img src="sky8.jpg" alt="sky8"></div>
+        </div>
+    </div>
+</body>
+<style>
+    .tbar{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: yellow;
+        width: 19%;
+        font-size: 30px;
+    }
+    #headbar{
+        display: flex;
+        justify-content: space-evenly;
+        height: 40px;
+        margin: 50px;
+    }
+    body{
+        background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvKEZZT6BiU1V1g6V4FawWYJZFpAyoKQuthw&usqp=CAU);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    #piccon1{
+        background-image: url(https://jolly-kalam-23776e.netlify.app/restaurantwebsite/images/taco.jpg);
+        background-repeat: no-repeat;
+        height: 600px;
+        background-position-x: right;
+        background-position-y: bottom;
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #worcon1{
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+        justify-content: space-around;
+    }
+    .con13{
+        display: flex;
+        flex-direction: column;
+        background-color: yellow;
+        margin: 20px;
+        justify-content: center;
+        align-items: center;
+        line-height: 0px;
+    }
+    .con12{
+        background-color: aqua;
+        padding: 5px;
+        width: 32%;
+        font-size: 40px;
+    }
+    #content1{
+        display: flex;
+        width: 100%;
+        margin: 65px;
+    }
+    .price{
+        font-size: 90px;
+    }
+    .item{
+        font-size: 50px;
+    }
+    .itin{
+        background-color: white;
+        text-align: center;
+    }
+    #itinf{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    #featured{
+        display: flex;
+        background-color: white;
+        margin-top: 50px;
+    }
+    #feat{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .bar{
+        height: 5px;
+        background-color: orange;
+        width: 45%;
+    }
+    #topgal{
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #galpics{
+        display: flex;
+        justify-content: space-between;
+    }
+</style>
+</html>

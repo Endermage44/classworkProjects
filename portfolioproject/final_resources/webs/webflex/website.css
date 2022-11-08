@@ -1,0 +1,77 @@
+body{
+    margin: 0px;
+}
+#page{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+#top{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    background-color: orange;
+}
+#topCon{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+#topLeft{
+    font-size: 40px;
+    display: flex;
+}
+#taskbar{
+    display: flex;
+    padding: 0px;
+    align-items: center;
+    justify-content: space-between;
+}
+#topBot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 40px;
+    line-height: 40px;
+}
+.toParaHead{
+    font-size: 30px;
+}
+.toPara{
+    font-size: 20px;
+}
+#toButton{
+    font-size: 30px;
+}
+.task{
+    padding: 10px;
+}
+#mid{
+    display: flex;
+    justify-content: space-around;
+}
+#midLeft{
+    text-align: center;
+}
+#midMid{
+    text-align: center;
+}
+#midRight{
+    text-align: center;
+}
+#bot{
+    display: flex;
+    justify-content: space-around;
+    align-items: bottom;
+    margin-top: 200px;
+    background-color: darkorange;
+    align-items: center;
+    padding: 20px;
+}
+#taskbar2{
+    display: flex;
+    padding: 0px;
+    align-items: center;
+    justify-content: space-between;
+}

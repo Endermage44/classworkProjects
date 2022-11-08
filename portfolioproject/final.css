@@ -1,0 +1,117 @@
+body{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+#heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: grey;
+}
+
+#topLeft{
+    padding-left: 20px;
+}
+
+#topRight{
+    width: 25%;
+}
+
+#taskbar{
+    display: flex;
+    justify-content: space-around;
+}
+
+#intro{
+    background-image: url(./final_resources/images/codes.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+    flex-direction: column;
+}
+
+#mePic{
+    width: 350px;
+    height: auto;
+}
+
+#meInfo{
+    color: white;
+}
+
+#exp{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 80px;
+    background-color: blue;
+}
+
+#codeExp{
+    background-color: lightgray;
+    padding: 40px;
+    border-radius: 50px;
+}
+
+#resume{
+    background-color: lightgray;
+    padding: 40px;
+    border-radius: 50px;
+}
+
+.deco{
+   text-decoration: underline !important;
+}
+
+#projects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 80px;
+}
+
+#actProjects{
+    display: flex;
+    flex-direction: column;
+}
+
+#row1{
+    display: flex;
+    justify-content: space-between;
+}
+
+#row2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.project{
+    background-color: aqua;
+    border-radius: 20px;
+    border-style: solid;
+    padding: 10px;
+}
+
+#contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: gray;
+}
+
+#row3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.infocon{
+    padding: 20px;
+}

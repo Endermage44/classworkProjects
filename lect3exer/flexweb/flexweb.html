@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="mainContain">
+        <div id="head">Header</div>
+        <div id="hero">Hero</div>
+        <div id="contain2">
+            <div id="content">Content</div>
+            <div id="sidebar">Sidebar</div>
+        </div>
+        <div id="footer">Footer</div>
+    </div>
+    <style>
+        #head{
+            background-color: aqua;
+            flex: 1;
+        }
+        #hero{
+            align-self: center;
+            background-color: red;
+            flex: 1;
+            max-width: 800px;
+            width: 100%;
+        }
+        #content{
+            background-color: green;
+            flex-grow: 2;
+            flex-basis: 450px;
+        }
+        #sidebar{
+            background-color: purple;
+            flex-grow: 1;
+            flex-basis: 150px;
+        }
+        #footer{
+            background-color: grey;
+            flex: 1;
+        }
+        #contain2{
+            align-self: center;
+            display: flex;
+            flex-wrap: wrap;
+            flex: 6;
+            max-width: 800px;
+            width: 100%;
+        }
+        #mainContain{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            height: 100vh;
+        }
+        body{
+            margin: 0px;
+        }
+    </style>
+</body>
+</html>

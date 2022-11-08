@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UpdatedQuiz</title>
+    <!-- Christopher, Max, Jon, Blake, Oscar and Zach -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <style>
+        div{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            align-items: center;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            width:30%;
+            align-items: center;
+            border: 1px solid black;
+        }
+        .buffer{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            align-items: center;
+        }
+        #jonssecretbutton{
+            visibility: hidden;
+        }
+        #money{
+            display: flex;
+            flex-direction: row;
+            width: 100%;
+            align-items: center;
+        }
+        #total{
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body onload="Order()">
+
+    <div id="questions">
+        <div id="0"></div>
+        <div id="1"></div>
+        <div id="2"></div>
+        <div id="3"></div>
+        <div id="4"></div>
+        <center><div id="money">
+            <h2 id="total">Total Money: $0/1,000,000</h2>
+            <h2 id="current">Current Question: $62,500</h2>
+        </div></center>
+        <br>
+        <button id="jonssecretbutton" onclick="reload()">reset</button>
+        <br>
+        <button id="Lifeline" onclick="Lifeline()">Lifeline</button>
+        <div id="lifeLeft">lifelines used: 0/3</div>
+    </div>
+    <script src="UpdatedQuiz.js"></script>
+</body>
+</html>
